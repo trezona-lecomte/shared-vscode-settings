@@ -15,5 +15,8 @@
     "git.autofetch": true,
     "window.zoomLevel": 0.5,
     "editor.renderIndentGuides": false,
-    "diffEditor.renderSideBySide": false
+    "diffEditor.renderSideBySide": false,
+    "workbench.editor.showTabs": false,
+    "files.trimFinalNewlines": true,
+    "window.openFoldersInNewWindow": "on"
 }
