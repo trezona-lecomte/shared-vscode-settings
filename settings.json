@@ -3,7 +3,6 @@
     "workbench.colorTheme": "Ayu Mirage",
     "editor.fontFamily": "PragmataPro Mono Liga",
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
     "editor.rulers": [],
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
@@ -15,5 +14,8 @@
     "dart.lineLength": 100,
     "sync.keybindingsPerPlatform": false,
     "workbench.editor.restoreViewState": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "window.zoomLevel": 0.5,
+    "editor.renderIndentGuides": false,
+    "diffEditor.renderSideBySide": false
 }
