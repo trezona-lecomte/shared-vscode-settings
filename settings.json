@@ -6,8 +6,6 @@
     "editor.rulers": [],
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "breadcrumbs.symbolPath": "off",
-    "breadcrumbs.enabled": false,
     "editor.folding": false,
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
