@@ -1,0 +1,19 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Ayu Mirage",
+    "editor.fontFamily": "PragmataPro Mono Liga",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.rulers": [],
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "breadcrumbs.symbolPath": "off",
+    "breadcrumbs.enabled": false,
+    "editor.folding": false,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "dart.lineLength": 100,
+    "sync.keybindingsPerPlatform": false,
+    "workbench.editor.restoreViewState": false,
+    "git.autofetch": true
+}
