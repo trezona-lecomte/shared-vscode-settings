@@ -471,9 +471,14 @@
         "key": "ctrl+cmd+space"
     },
     {
-        "when": "editorTextFocus",
+        "when": "isMac && editorTextFocus",
         "command": "editor.action.showHover",
         "key": "ctrl+cmd+space"
+    },
+    {
+        "when": "isWindows && editorTextFocus",
+        "command": "editor.action.showHover",
+        "key": "ctrl+alt+space"
     },
     {
         "when": "editorTextFocus",
