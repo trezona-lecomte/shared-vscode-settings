@@ -814,7 +814,7 @@
         "when": "remoteFileDialogVisible"
     },
     {
-        "key": "ctrl+shift+alt+f",
+        "key": "ctrl+shift+cmd+o",
         "command": "dartFlutterOutline.focus"
     },
     {
@@ -967,5 +967,39 @@
         "key": "shift+f8",
         "command": "-editor.action.marker.prevInFiles",
         "when": "editorFocus"
+    },
+    {
+        "key": "alt+g alt+g",
+        "command": "-workbench.action.gotoLine",
+        "when": "!config.emacs-mcx.useMetaPrefixMacCmd"
+    },
+    {
+        "key": "cmd+g cmd+g",
+        "command": "workbench.action.gotoLine",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+g cmd+g",
+        "command": "-workbench.action.gotoLine",
+        "when": "config.emacs-mcx.useMetaPrefixMacCmd"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "alt+g alt+g",
+        "command": "-emacs-mcx.executeCommands",
+        "when": "editorFocus && findWidgetVisible && !config.emacs-mcx.useMetaPrefixMacCmd"
+    },
+    {
+        "key": "alt+g alt+g",
+        "command": "workbench.action.gotoLine",
+        "when": "isWindows"
+    },
+    {
+        "key": "alt+g g",
+        "command": "-workbench.action.gotoLine",
+        "when": "!config.emacs-mcx.useMetaPrefixMacCmd"
     }
 ]

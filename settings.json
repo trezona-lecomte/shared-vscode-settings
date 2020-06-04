@@ -25,5 +25,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "dart.previewUpdateImportsOnRename": true,
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
+    "editor.lightbulb.enabled": false,
+    "explorer.confirmDragAndDrop": false
 }
