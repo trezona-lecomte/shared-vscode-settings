@@ -14,7 +14,6 @@
     "workbench.editor.restoreViewState": false,
     "git.autofetch": true,
     "window.zoomLevel": 0.5,
-    "editor.renderIndentGuides": false,
     "diffEditor.renderSideBySide": false,
     "workbench.editor.showTabs": false,
     "files.trimFinalNewlines": true,
