@@ -1006,5 +1006,24 @@
         "key": "alt+g g",
         "command": "-workbench.action.gotoLine",
         "when": "!config.emacs-mcx.useMetaPrefixMacCmd"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "-ms-azurecli.toggleLiveQuery",
+        "when": "editorTextFocus && editorLangId == 'azcli'"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "-emacs-mcx.executeCommands",
+        "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "extension.aceJump.multiChar"
     }
 ]
