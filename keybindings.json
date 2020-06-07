@@ -819,7 +819,7 @@
         "when": "remoteFileDialogVisible"
     },
     {
-        "key": "ctrl+shift+cmd+o",
+        "key": "ctrl+x f",
         "command": "dartFlutterOutline.focus"
     },
     {
