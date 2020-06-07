@@ -1040,5 +1040,20 @@
         "key": "shift+cmd+o",
         "command": "multiCommand.flutter.fixAndOrganizeImports",
         "when": "isMac"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-emacs-mcx.executeCommands",
+        "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        "key": "shift+alt+-",
+        "command": "undo",
+        "when": "isWindows && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-undo",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
