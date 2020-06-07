@@ -1023,7 +1023,7 @@
         "when": "editorFocus && findWidgetVisible"
     },
     {
-        "key": "ctrl+j",
+        "key": "ctrl+h",
         "command": "extension.aceJump.multiChar"
     },
     {
