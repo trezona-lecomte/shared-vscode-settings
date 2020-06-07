@@ -13,7 +13,7 @@
     "sync.keybindingsPerPlatform": false,
     "workbench.editor.restoreViewState": false,
     "git.autofetch": true,
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 0.8,
     "diffEditor.renderSideBySide": false,
     "workbench.editor.showTabs": false,
     "files.trimFinalNewlines": true,
