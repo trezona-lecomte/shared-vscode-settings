@@ -26,5 +26,14 @@
     "dart.previewUpdateImportsOnRename": true,
     "files.autoSave": "onFocusChange",
     "editor.lightbulb.enabled": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.flutter.fixAndOrganizeImports",
+            "sequence": [
+                "dart-import.fix",
+                "editor.action.organizeImports"
+            ]
+        }
+    ]
 }
