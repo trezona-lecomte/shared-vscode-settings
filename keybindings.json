@@ -1023,7 +1023,7 @@
         "when": "editorFocus && findWidgetVisible"
     },
     {
-        "key": "ctrl+;",
+        "key": "ctrl+j",
         "command": "extension.aceJump.multiChar"
     },
     {
@@ -1047,13 +1047,104 @@
         "when": "editorFocus && findWidgetVisible"
     },
     {
-        "key": "shift+alt+-",
+        "key": "ctrl+/",
         "command": "undo",
-        "when": "isWindows && editorTextFocus && !editorReadonly"
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
         "key": "ctrl+/",
         "command": "-undo",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+x j",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-extension.dash.specific",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "-extension.dash.all",
+        "when": "isWindows && editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "extension.dash.specific",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "editor.action.commentLine"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "undo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-undo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+x u",
+        "command": "-undo",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "editor.action.customEditor.undo",
+        "when": "focusedCustomEditorIsEditable && !inputFocus"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-editor.action.customEditor.undo",
+        "when": "focusedCustomEditorIsEditable && !inputFocus"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "notebook.undo",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-notebook.undo",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "shift+alt+-",
+        "command": "redo",
+        "when": "isWindows && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "-redo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-redo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-editor.action.customEditor.redo",
+        "when": "focusedCustomEditorIsEditable && !inputFocus"
     }
 ]
